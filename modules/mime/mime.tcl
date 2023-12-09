@@ -23,7 +23,7 @@
 # new string features and inline scan are used, requiring 8.3.
 package require Tcl 8.5
 
-package provide mime 1.7.0
+package provide mime 1.7.0.1
 package require tcl::chan::memchan
 
 
