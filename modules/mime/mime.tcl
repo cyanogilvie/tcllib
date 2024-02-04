@@ -1898,9 +1898,6 @@ proc ::mime::copymessageaux {token channel} {
             if {[set encoding $state(encoding)] eq {}} {
                 set encoding [encoding $token]
             }
-            if {$encoding ne {}} {
-                puts $channel "Content-Transfer-Encoding: $encoding"
-            }
             switch -- $encoding {
                 base64
                     -
